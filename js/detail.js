@@ -1,164 +1,148 @@
 const items = {};
 
-/* รายการ Spirited Away */
+/* รายการ glock */
 
-items.spirited = {
-  id: "spirited",
-  name: "Spirited Away",
-  group: "films",
-  category: "หนัง",
-  maker: "Hayao Miyazaki",
-  makerLabel: "ผู้กำกับ",
-  caption: "ฉากรถไฟที่ยังอยากกลับไปดู",
+items.glock = {
+  id: "glock",
+  name: "Glock",
+  group: "Handgun",
+  category: "ปืนพก",
+  maker: "ออสเตรีย (Austria) 🇦🇹",
+  makerLabel: "ประเทศ",
+  caption: "พลาสติกเปลี่ยนโลก",
   description:
-    "หนังของจิฮิโระที่หลงเข้าไปในโรงอาบน้ำของเหล่าเทพ ทั้งคนงาน แขก " +
-    "และของเล็ก ๆ ในฉากมีอะไรให้มองตลอด",
+    "ออกแบบและก่อตั้งโดย Gaston Glock ในเมือง Deutsch-Wagram ประเทศออสเตรีย",
   story:
-    "ดูหลายรอบแล้ว แต่ก็ยังรอฉากรถไฟทุกครั้ง ชอบที่หนังเงียบลงสักพัก " +
-    "เหลือแค่ตัวละครนั่งข้างกันกับน้ำที่ทอดยาวออกไป",
-  image: "assets/images/collection/spirited-away.jpg",
-  related: ["ram", "converse"],
+    "ความเรียบง่าย (Minimalist) โครงโพลิเมอร์ที่ทนทานลุยได้ทุกสภาวะ ปรัชญา Safe Action ที่ไม่มีเซฟนอก และเป็น ตัวเลโก้ ที่มีอะไหล่กับของแต่งเยอะที่สุดในโลก",
+  image: "assets/images/collection/glock.png",
+  related: ["sigsauer", "cz"],
 };
 
-/* รายการ Random Access Memories */
+/* รายการ sigsauer */
 
-items.ram = {
-  id: "ram",
-  name: "Random Access Memories",
-  group: "music",
-  category: "เพลง",
-  maker: "Daft Punk",
-  makerLabel: "ศิลปิน",
-  caption: "ฟังตั้งแต่เพลงแรกจนจบ",
+items.sigsauer = {
+  id: "sigsauer",
+  name: "SIG Sauer",
+  group: "Handgun",
+  category: "ปืนพก",
+  maker: "สวิตเซอร์แลนด์ 🇨🇭 & เยอรมนี 🇩🇪",
+  makerLabel: "ประเทศ",
+  caption: "ปืนประจำการยุคใหม่",
   description:
-    "Random Access Memories เป็นอัลบั้มของ Daft Punk ที่เลือกเปิดเวลานั่งทำงาน " +
-    "โดยเฉพาะวันที่อยากฟังอะไรยาว ๆ",
+    "เกิดจากการร่วมมือระหว่างบริษัท SIG (สวิตเซอร์แลนด์) และ J.P. Sauer & Sohn (เยอรมนี) ก่อนจะขยายฐานการพัฒนาและผลิตหลักไปที่อเมริกา (SIG Sauer Inc.)",
   story:
-    "พอเปิดบ่อยก็เริ่มจำได้ว่าเพลงถัดไปจะเข้ามาตอนไหน " +
-    "ชอบฟังต่อกันมากกว่าสุ่มเพลง บางวันฟังจบแล้วก็เปิดใหม่ตั้งแต่ต้น",
-  image: "assets/images/collection/random-access-memories.jpg",
-  related: ["prince", "budapest"],
+    "ตระกูล P226/P229 ในตำนาน และชุดลั่นไกโมดูลาร์ FCU ในรุ่น P320/P366 ที่สลับบอดี้ได้อิสระ จนคว้าสัญญาปืนประจำการกองทัพสหรัฐฯ (M17/M18)",
+  image: "assets/images/collection/sig sauer.png",
+  related: ["cz", "hk"],
 };
 
-/* รายการ The Little Prince */
+/* รายการ cz */
 
-items.prince = {
-  id: "prince",
-  name: "The Little Prince",
-  group: "books",
-  category: "หนังสือ",
-  maker: "Antoine de Saint-Exupéry",
-  makerLabel: "ผู้เขียน",
-  caption: "อ่านได้อีก แม้จะรู้เรื่องแล้ว",
+items.cz = {
+  id: "cz",
+  name: "CZ",
+  group: "Handgun",
+  category: "ปืนพก",
+  maker: "สาธารณรัฐเช็ก (Czech Republic) 🇨🇿",
+  makerLabel: "ประเทศ",
+  caption: "ราชาสนามแข่ง",
   description:
-    "เรื่องของเจ้าชายน้อยที่เดินทางไปตามดาวต่าง ๆ เล่มบาง อ่านไม่นาน " +
-    "แต่มีหลายตอนที่อยากกลับมาอ่านอีก",
+    "แบรนด์เก่าแก่จากเมือง Uherský Brod ประเทศเช็กเกีย (เชกโกสโลวาเกียเดิม)",
   story:
-    "บางครั้งเปิดมาดูรูป บางครั้งก็กลับไปอ่านประโยคที่จำได้ " +
-    "อ่านครั้งใหม่แล้วชอบคนละตอนกับครั้งก่อน เล่มนี้เลยยังไม่เบื่อสักที",
-  image: "assets/images/collection/the-little-prince.jpg",
-  related: ["am", "x100"],
+    "ปืนสัญชาติเช็กอย่าง CZ 75 กับสไลด์ที่ขี่อยู่ข้างในเฟรม (Low-Profile Slide) สรีรศาสตร์ด้ามจับที่เข้ามือที่สุด และไกปืนสุดคมที่ครองแชมป์สนามไอพีเอสซี (IPSC) ทั่วโลก",
+  image: "assets/images/collection/cz.png",
+  related: ["fn", "desert"],
 };
 
-/* รายการ Fujifilm X100 */
+/* รายการ HK */
 
-items.x100 = {
-  id: "x100",
-  name: "Fujifilm X100",
-  group: "cameras",
-  category: "สิ่งของ",
-  maker: "Fujifilm",
-  makerLabel: "ผู้ผลิต",
-  caption: "ชอบปุ่มหมุนกับหน้าตาของมัน",
+items.hk = {
+  id: "hk",
+  name: "HK",
+  group: "Handgun",
+  category: "ปืนพก",
+  maker: "เยอรมนี (Germany) 🇩🇪",
+  makerLabel: "ประเทศ",
+  caption: "ความเนี๊ยบระดับหน่วยพิเศษ",
   description:
-    "Fujifilm X100 เป็นกล้องที่เห็นรูปแล้วสะดุดตา ตัวกล้องสีเงินกับดำ " +
-    "มีช่องมองภาพและปุ่มหมุนด้านบน ดูแล้วอยากลองหยิบมาถ่ายรูป",
+    "คลังอาวุธระดับตำนานจากเมือง Oberndorf am Neckar ประเทศเยอรมนี",
   story:
-    "ชอบรายละเอียดบนตัวกล้อง ทั้งปุ่มหมุน ขอบโลหะ และผิวจับด้านหน้า " +
-    "แค่ดูรูปก็เพลินแล้ว ถ้ามีโอกาสก็อยากลองใช้สักครั้ง",
-  image: "assets/images/collection/fujifilm-x100.png",
-  related: ["spirited", "hobbit"],
+    "สโลแกน No Compromise ความเป๊ะตามมาตรฐานเยอรมนี คันปลดแม็กกาซีนที่การ์ดไก (Paddle Release) และปืนตำนานอย่าง HK USP หรือ P30 ที่ใช้ในหน่วยรบระดับโลก",
+  image: "assets/images/collection/HK.png",
+  related: ["desert", "revolver"],
 };
 
-/* รายการ The Grand Budapest Hotel */
+/* รายการ SIG 1911 */
 
-items.budapest = {
-  id: "budapest",   
-  name: "The Grand Budapest Hotel",
-  group: "films",
-  category: "หนัง",
-  maker: "Wes Anderson",
-  makerLabel: "ผู้กำกับ",
-  caption: "ชอบสีและของเล็ก ๆ ในแต่ละฉาก",
+items.sig1911 = {
+  id: "sig1911",   
+  name: "SIG 1911",
+  group: "Handgun",
+  category: "ปืนพก",
+  maker: "สหรัฐอเมริกา (USA) 🇺🇸",
+  makerLabel: "ประเทศ",
+  caption: "ตำนานอเมริกัน",
   description:
-    "The Grand Budapest Hotel เล่าเรื่องวุ่น ๆ ในโรงแรมสีชมพู " +
-    "มีทั้งตัวละครที่แต่งตัวจัดและฉากที่จำได้ทันที",
+    "รูปทรงปืน 1911 ออกแบบโดย John Browning ในสหรัฐอเมริกา แต่ถูกผลิตและปรับแต่งโดยแบรนด์ SIG Sauer (เดิมคือการแท็กทีมระหว่าง SIG ของสวิตเซอร์แลนด์ และ Sauer ของเยอรมนี ปัจจุบันฐานผลิตหลักของ SIG อยู่ในสหรัฐอเมริกา)",
   story:
-    "ดูรอบแรกตามเรื่อง พอดูอีกทีก็มัวแต่มองสี เสื้อผ้า และของในฉาก " +
-    "มีรายละเอียดที่เพิ่งเห็นเพิ่มทุกครั้ง",
-  image: "assets/images/collection/the-grand-budapest-hotel.jpg",
-  related: ["converse", "ram"],
+    "รูปทรงอมตะของ 1911 กลไก Single-Action ไกหลุดคมกริบ กระสุนขนาด .45 ACP แต่ถูกนำมาเจียระไนใหม่ด้วยสไลด์ทรงเหลี่ยมและงานประกอบอันประณีตตามมาตรฐาน SIG",
+  image: "assets/images/collection/sig1911.png",
+  related: ["glock", "fn"],
 };
 
-/* รายการ AM */
+/* รายการ FN */
 
 
-items.am = {
-  id: "am",
-  name: "AM",
-  group: "music",
-  category: "เพลง",
-  maker: "Arctic Monkeys",
-  makerLabel: "ศิลปิน",
-  caption: "เห็นปกก็จำได้ทันที",
+items.fn = {
+  id: "fn",
+  name: "FN Five-seveN",
+  group: "Handgun",
+  category: "ปืนพก",
+  maker: "เบลเยียม (Belgium) 🇧🇪",
+  makerLabel: "ประเทศ",
+  caption: "อาวุธจากอนาคต",
   description:
-    "AM ของ Arctic Monkeys เป็นอัลบั้มที่หยิบมาฟังระหว่างเดินทาง " +
-    "มีเพลงที่คุ้นหูจนร้องตามได้หลายเพลง",
+    "พัฒนาและผลิตโดยบริษัท FN Herstal (Fabrique Nationale Herstal) ประเทศเบลเยียม",
   story:
-    "ชอบเสียงเบสที่วนอยู่ในเพลง เปิดแล้วเดินต่อได้เรื่อย ๆ " +
-    "ไม่ต้องคอยหยิบโทรศัพท์มาเลือกเพลงใหม่",
-  image: "assets/images/collection/arctic-monkeys-am.jpg",
-  related: ["hobbit", "x100"],
+    "กระสุนขนาดพิเศษ 5.7x28mm ทรงหัวเข็มอันเลื่องชื่อเรื่องการเจาะเกราะอ่อน น้ำหนักเบา จูกระสุนได้เยอะ ถอยหลังเบา และรูปทรงไซไฟสุดล้ำสมัย",
+  image: "assets/images/collection/five seven.png",
+  related: ["glock", "sig1911"],
 };
 
-/* รายการ The Hobbit */
+/* รายการ Desert Eagle */
 
-items.hobbit = {
-  id: "hobbit",
-  name: "The Hobbit",
-  group: "books",
-  category: "หนังสือ",
-  maker: "J. R. R. Tolkien",
-  makerLabel: "ผู้เขียน",
-  caption: "อยากออกเดินทางตั้งแต่เห็นปก",
+items.desert = {
+  id: "desert",
+  name: "Desert Eagle",
+  group: "Handgun",
+  category: "ปืนพก",
+  maker: "สหรัฐอเมริกา 🇺🇸 & อิสราเอล 🇮🇱",
+  makerLabel: "ประเทศ",
+  caption: "พญาราชสีห์ไอคอนฮอลลีวูด",
   description:
-    "The Hobbit เริ่มจากบ้านของบิลโบ แล้วพาออกไปไกลกว่าที่เจ้าตัวคิดไว้ " +
-    "เป็นเล่มที่หยิบอ่านเมื่อมีเวลายาวหน่อย",
+    "ออกแบบและคิดค้นโดยบริษัท Magnum Research ในสหรัฐอเมริกา แต่ถูกส่งไปพัฒนาต่อและผลิตโดย IMI (Israel Military Industries) ประเทศอิสราเอล จนกลายเป็นไอคอนยุคแรก",
   story:
-    "ชอบตอนที่บิลโบยังลังเลว่าจะไปดีไหม อ่านแล้วอยากรู้ว่าพอเดินออกจากบ้าน " +
-    "เขาจะเจออะไรต่อ",
-  image: "assets/images/collection/the-hobbit.jpg",
-  related: ["budapest", "converse"],
+    "ขนาดตัวอันมหึมา ระบบลูกสูบแก๊สเหมือนปืนยาว กระสุนขนาดขวานฟ้าหน้าดำอย่าง .50 AE แรงถอยจัดจ้าน และภาพจำปืนพระเอก/ตัวร้ายในภาพยนตร์และเกม FPS",
+  image: "assets/images/collection/deseret eagle.png",
+  related: ["sig1911", "sigsauer"],
 };
 
-/* รายการ Converse All Star */  
+/* รายการ revolver */  
 
-items.converse = {
-  id: "converse",
-  name: "Converse All Star",
-  group: "objects",
-  category: "สิ่งของ",
-  maker: "Converse",
-  makerLabel: "แบรนด์",
-  caption: "คู่เรียบ ๆ ที่ใส่กับอะไรก็ได้",
+items.revolver = {
+  id: "revolver",
+  name: "Revolver",
+  group: "Handgun",
+  category: "ปืนพก",
+  maker: "สหรัฐอเมริกา (USA) 🇺🇸",
+  makerLabel: "ประเทศ",
+  caption: "คลาสสิกอมตะ",
   description:
-    "รองเท้าผ้าใบสีดำกับพื้นยางสีขาว หน้าตาคุ้นเคยที่เห็นได้เรื่อย ๆ " +
-    "ทั้งในรูปเก่าและบนถนน",
+    "แม้จะมีระบบหมุนโม่ยุคแรกๆ ในยุโรป แต่ปืนลูกโม่โมเดิร์นแบบ Single/Double Action ที่เราคุ้นเคยถูกคิดค้น ถือสิทธิบัตร และทำตลาดจนแพร่หลายโดย Samuel Colt ในสหรัฐอเมริกา",
   story:
-    "ชอบที่รูปทรงมันเรียบ มีแค่ผ้า เชือก และขอบยาง " +
-    "พอมีรอยใช้งานก็ยิ่งดูเป็นรองเท้าของคนที่ใส่จริง ๆ",
-  image: "assets/images/collection/converse-all-star.jpg",
-  related: ["prince", "am"],
+    "โม่หมุน 6 นัด เสียงสับไกอันดุดัน กลไกที่ไม่พึ่งพาแรงถอยกระสุน (ไม่มีคำว่าติดขัดเพราะขัดปลอก) และภาพจำหนังคาวบอยหรือตำรวจยุคเก๋า",
+  image: "assets/images/collection/revolver.png",
+  related: ["hk", "glock"],
 };
 
 /* อ่าน id จาก URL */
